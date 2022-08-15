@@ -1,0 +1,67 @@
+body {
+    background-image: url("wave.jpg");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(6, 53, 78);
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+.container{
+  height: 70vh;
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50%;
+  margin: auto;
+  padding: 2.5rem;
+  background: rgb(0, 168, 209);
+  border: 3px solid rgb(6, 53, 78);
+  border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+  background: rgb(0, 119, 154);
+}
+
+#increment-btn:hover {
+  background:rgb(0, 119, 154, .70);
+  transition: 0.5s;
+}
+
+#save-btn {
+  background:rgb(6, 53, 78);
+}
+
+#save-btn:hover {
+  background: rgb(6, 53, 78, .70);
+  transition: 0.5s;
+}
