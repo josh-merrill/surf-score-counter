@@ -1,4 +1,4 @@
-# cMLr3asK
+# Score Score Counter
 
 ## About Scrimba
 
